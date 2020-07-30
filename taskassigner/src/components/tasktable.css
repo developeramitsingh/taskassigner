@@ -1,0 +1,40 @@
+.TaskTable-Head{
+	background: #f5f8fa !important;
+	font-size: 10px !important;
+	padding: 10px !important; 
+}
+
+.fa-check-circle-o, .fa-check-circle{
+	font-size: 24px;
+}
+
+.taskDoneCss{
+	color:#53b562 !important;
+}
+
+.fa-check-circle-o{
+	color: #ebf0f5;
+}
+.Status-MailIcon{
+	background:#6a7acb !important;
+	color:#fff !important;
+	border-radius: 50%;
+	padding: 5px;
+	font-size: 24px !important;
+}
+td, th{
+	
+	text-align: center !important;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked{
+	color:#315e97 !important;
+}
+.MuiTableRow-root.Mui-selected{
+	background-color:#f5f8fa !important;
+}
+
+.TaskTable{
+	overflow: auto;
+	max-height: 400px;
+}

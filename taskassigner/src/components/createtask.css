@@ -1,0 +1,66 @@
+
+.CreateTask{
+	border:1px solid #dbe2e9;
+	font-size: 12px;
+	box-shadow: -2px 0px 4px 0px #e0e0e0;
+}
+.CreateTask-Head{
+	background-image: linear-gradient(#46a4b8, #52b8a6);
+	padding: 10px 20px;
+	color:#fff;
+}
+
+.CreateTask-Head span i{
+	float:right;
+	cursor: pointer;
+}
+.CreateTask Form{
+	padding: 10px 20px;	
+}
+.CreateTask Form input, .CreateTask Form select{
+	font-size: 12px;
+	padding: 5px;
+
+}
+
+input:focus, select:focus{
+	box-shadow: none !important;
+}
+
+.CreateTask-DueTime{
+	border:1px solid #dbe2e9;
+	padding: 0px 10px;
+	border-radius: 5px;
+}
+.CreateTask-DueTime select{
+	outline: none;
+	border:0px;
+}
+
+.CreateTask-CreateBtn{
+	background: #ebf0f5 !important;
+	color:#7e96b1;
+	font-size: 10px;
+	border:0px;
+}
+
+.CreateTask-CreateBtn:hover{
+	background: #315e97 !important;
+}
+
+.CreateTask-Btn{
+	font-size: 10px;
+	border:1px solid #f08162 !important;
+}
+
+.CreateTask-Btn:hover{
+	background: #f08162 !important;
+}
+
+
+.CreateTask-Footer{
+	background: #f5f8fa;
+	padding: 10px 20px;
+
+	border-top:1px solid #e6ebf0;
+}

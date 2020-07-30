@@ -1,0 +1,24 @@
+.App{
+  font-family: sans-serif;
+	
+}
+.blue{
+  background: #315e97;
+}
+.blue--fg{
+  color: #315e97;
+}
+
+.blue--fg--dark{
+	color:#22426b;
+}
+.white{
+  color:#fff !important;
+}
+
+.flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+

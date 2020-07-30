@@ -1,0 +1,136 @@
+.App-Tasks{
+	padding:10px;
+	display: inline-block;
+	width: 100%;
+	font-size: 14px;
+}
+
+.CreateTaskOpened{
+   width: 82% !important;	
+   font-size: 14px;
+   display: inline-block;
+   padding:10px;
+}
+.center{
+	text-align: center;
+}
+
+.right{
+	text-align: right;
+}
+
+.App-CreateTask{
+	display: inline-block;
+	width: 28%;
+
+}
+.App-Tasks-Btn{
+	border:1px solid #f08162 !important;
+}
+
+.Active{
+	background: #f08162 !important;
+	color: #fff;
+}
+
+.App-Tasks-Btn:hover{
+	background: #f08162 !important;
+}
+
+.bb-1{
+	border-bottom:1px solid #dbe2e9;
+}
+.sideList-left .nav-link, .Taskpane-SideList-Accordian__Btn{
+	color:#7b8692 !important;
+}
+
+.sideList-left .nav-link:hover, .Taskpane-SideList-Accordian__Btn{
+	background:#ebf0f5;
+}
+
+
+.sideList-left .ActivePane{
+	background:#ebf0f5;
+	font-weight: bold;
+}
+
+.Taskpane-Filter--Nav .nav-link{
+	padding: 0px !important;
+	text-align: center;
+	font-size: 12px;
+}
+
+.Taskpane-Filter--Nav span{
+
+	font-size: 12px;
+}
+
+.Taskpane-Filter--Nav .nav-link:hover{	
+	background: transparent;
+}
+
+
+.Taskpane-Filter--SearchForm{
+	background: #f5f8fa !important;
+	border:1px solid #e4e9ef;
+	border-radius: 5px;
+	height: 40px;
+	padding:0px 0px 0px 0px;
+	width: 100%;
+	box-sizing: content-box;
+}
+
+.Taskpane-Filter--Search{
+	outline: none;
+	background: #f5f8fa !important;
+	border:0px;		
+	font-size: 12px !important;
+	width: 85% !important;
+}
+
+.fa-search{
+	color:#4292ad;
+	
+}
+.disabled{
+	pointer-events: none;
+	opacity: 0;
+	display: none;
+}
+
+.Taskpane-SideList-Queue{
+	cursor: pointer;
+	font-weight: bold;	
+}
+
+.Taskpane-SideList-Accordian__Btn{
+	width: 100%;
+	text-align: left;
+	background: transparent;
+	border:0px;
+	text-decoration: none;
+	color: #7b8692 !important;
+	font-size: 14px;
+}
+
+.Taskpane-SideList-Accordian__Btn:hover, .Taskpane-SideList-Accordian__Btn:focus{
+	text-decoration: none;
+	box-shadow: none;
+}
+@media screen and (max-width: 700px){
+	.CreateTaskOpened{
+   		width: 65% !important;
+   }	
+	.App-CreateTask{
+		width: 35% !important;
+	}
+
+	.nav-link{
+		width: 100% !important;
+		text-align: center !important;
+	}
+	.MobBtn{
+		width: 100% !important;
+		margin-top: 5px;
+	}
+}
